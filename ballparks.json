@@ -1,0 +1,92 @@
+{
+  "BUF": {
+    "city": "Buffalo",
+    "mascot": "Bison",
+    "lat": "42.88051685",
+    "long": "-78.873798"
+  },
+  "CHA": {
+    "city": "Charlotte",
+    "mascot": "Knights",
+    "lat": "35.22826",
+    "long": "-80.848789"
+  },
+  "COL": {
+    "city": "Columbus",
+    "mascot": "Clippers",
+    "lat": "39.9687",
+    "long": "-83.0109089"
+  },
+  "DUR": {
+    "city": "Durham",
+    "mascot": "Bulls",
+    "lat": "35.99158",
+    "long": "-78.9039"
+  },
+  "GWI": {
+    "city": "Gwinnet",
+    "mascot": "Stripers",
+    "lat": "34.0406623",
+    "long": "-83.992481"
+  },
+  "IND": {
+    "city": "Indianapolis",
+    "mascot": "Indians",
+    "lat": "39.7647688",
+    "long": "-86.1693835"
+  },
+  "IOW": {
+    "city": "Iowa",
+    "mascot": "Cubs",
+    "lat": "41.5802173",
+    "long": "-93.616616"
+  },
+  "JAC": {
+    "city": "Jacksonville",
+    "mascot": "Jumbo Shrimp",
+    "lat": "30.3257439",
+    "long": "-81.64498014"
+  },
+  "LEH": {
+    "city": "Lehigh Valley",
+    "mascot": "IronPigs",
+    "lat": "40.6259296",
+    "long": "-75.4525644"
+  },
+  "LOU": {
+    "city": "Louisville",
+    "mascot": "Bats",
+    "lat": "38.2564512",
+    "long": "-85.7436241"
+  },
+  "MEM": {
+    "city": "Memphis",
+    "mascot": "Redbirds",
+    "lat": "35.1427891",
+    "long": "-90.050008997"
+  },
+  "NAS": {
+    "city": "Nashville",
+    "mascot": "Sounds",
+    "lat": "36.17252255",
+    "long": "-86.784598"
+  },
+  "NOR": {
+    "city": "Norfolk",
+    "mascot": "Tides",
+    "lat": "36.84265767",
+    "long": "-76.278784"
+  },
+  "OMA": {
+    "city": "Omaha",
+    "mascot": "Storm Chasers",
+    "lat": "41.1517898",
+    "long": "-96.10642"
+  },
+  "ROC": {
+    "city": "Rochester",
+    "mascot": "Red Wings",
+    "lat": "43.15822695",
+    "long": "-77.6206832"
+  }
+  }
