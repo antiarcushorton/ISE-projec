@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Nov 18 12:23:46 2021
-
 @author: marcus
 """
 
@@ -89,6 +88,7 @@ selected = gp.tuplelist((i, j) for i, j in vals.keys() if vals[i, j] > 0.5)
 
 tour = subtour(selected)
 assert len(tour) == len(teams)
+print(tour)
 
 import folium
 
@@ -101,4 +101,4 @@ points.append(points[0])
 
 folium.PolyLine(points).add_to(map)
 
-map
+map.save("map.html")
