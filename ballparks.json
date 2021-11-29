@@ -88,5 +88,275 @@
     "mascot": "Red Wings",
     "lat": "43.15822695",
     "long": "-77.6206832"
+  },
+  "SWB": {
+    "city": "Scranton/Wilkes-Barre",
+    "mascot": "RailRiders",
+    "lat": "41.3615096",
+    "long": "-75.6849438"
+  },
+  "STP": {
+    "city": "St. Paul",
+    "mascot": "Saints",
+    "lat": "44.9504546",
+    "long": "-93.0850749"
+  },
+  "SYR": {
+    "city": "Syracuse",
+    "mascot": "Mets",
+    "lat": "43.0785776",
+    "long": "-76.1650598"
+  },
+  "TOL": {
+    "city": "Toledo",
+    "mascot": "Mud Hens",
+    "lat": "41.6485569",
+    "long": "-83.5386020"
+  },
+  "WOR": {
+    "city": "Worcester",
+    "mascot": "Red Sox",
+    "lat": "42.2571204",
+    "long": "-71.8003424"
+  },
+  "ALB": {
+    "city": "Albuquerque",
+    "mascot": "Isotopes",
+    "lat": "35.0703106",
+    "long": "-106.6297751"
+  },
+  "EPC": {
+    "city": "El Paso",
+    "mascot": "Chihuahuas",
+    "lat": "31.75945",
+    "long": "-106.49250"
+  },
+  "LVA": {
+    "city": "Las Vegas",
+    "mascot": "Aviators",
+    "lat": "36.1529911",
+    "long": "-115.3308564"
+  },
+  "OKC": {
+    "city": "Oklahoma City",
+    "mascot": "Dodgers",
+    "lat": "35.4650709",
+    "long": "-97.5076089"
+  },
+  "REN": {
+    "city": "Reno",
+    "mascot": "Aces",
+    "lat": "39.5290538",
+    "long": "-119.8095924"
+  },
+  "RRE": {
+    "city": "Round Rock",
+    "mascot": "Express",
+    "lat": "30.5274994",
+    "long": "-97.6309096"
+  },
+  "SAC": {
+    "city": "Sacramento",
+    "mascot": "River Cats",
+    "lat": "38.5800703",
+    "long": "-121.5144292"
+  },
+  "SLB": {
+    "city": "Salt Lake",
+    "mascot": "Bees",
+    "lat": "40.7412941",
+    "long": "-111.8929327"
+  },
+  "SLS": {
+    "city": "Sugar Land",
+    "mascot": "Skeeters",
+    "lat": "29.6231250",
+    "long": "-95.6473560"
+  },
+  "TAC": {
+    "city": "Tacoma",
+    "mascot": "Rainiers",
+    "lat": "47.2380547",
+    "long": "-122.4967099"
+  },
+  "AMA": {
+    "city": "Amarillo",
+    "mascot": "Sod Poodles",
+    "lat": "35.2050076",
+    "long": "-101.8317114"
+  },
+  "ARK": {
+    "city": "Arkansas",
+    "mascot": "Travelers",
+    "lat": "34.7551296",
+    "long": "-92.2725877"
+  },
+  "CCH": {
+    "city": "Corpus Christi",
+    "mascot": "Hooks",
+    "lat": "27.8091447",
+    "long": "-97.4000338"
+  },
+  "FRI": {
+    "city": "Frisco",
+    "mascot": "RoughRiders",
+    "lat": "33.0980041",
+    "long": "-96.8199251"
+  },
+  "MID": {
+    "city": "Midland",
+    "mascot": "RockHounds",
+    "lat": "31.9878557",
+    "long": "-102.1560804"
+  },
+  "NAN": {
+    "city": "Northwest Arkansas",
+    "mascot": "Naturals",
+    "lat": "36.1594439",
+    "long": "-94.1955033"
+  },
+  "SAM": {
+    "city": "San Antonio",
+    "mascot": "Missions",
+    "lat": "29.4085686",
+    "long": "-98.6004790"
+  },
+  "SPR": {
+    "city": "Springfield",
+    "mascot": "Cardinals",
+    "lat": "37.2113461",
+    "long": "-93.2798665"
+  },
+  "TUL": {
+    "city": "Tulsa",
+    "mascot": "Drillers",
+    "lat": "36.1605942",
+    "long": "-95.9889587"
+  },
+  "WIC": {
+    "city": "Wichita",
+    "mascot": "Wind Surge",
+    "lat": "37.6835301",
+    "long": "-97.3442714"
+  },
+  "AKR": {
+    "city": "Akron",
+    "mascot": "RubberDucks",
+    "lat": "41.0784960",
+    "long": "-81.5213040"
+  },
+  "ALT": {
+    "city": "Altoona",
+    "mascot": "Curve",
+    "lat": "40.3301516",
+    "long": "-78.9237721"
+  },
+  "BIN": {
+    "city": "Binghamton",
+    "mascot": "Rumble Ponies",
+    "lat": "42.1023619",
+    "long": "-75.9053577"
+  },
+  "BOW": {
+    "city": "Bowie",
+    "mascot": "Baysox",
+    "lat": "38.9453245",
+    "long": "-76.7098582"
+  },
+  "ERI": {
+    "city": "Erie",
+    "mascot": "SeaWolves",
+    "lat": "42.1266604",
+    "long": "-80.0807821"
+  },
+  "HAR": {
+    "city": "Harrisburg",
+    "mascot": "Senators",
+    "lat": "40.2570200",
+    "long": "-76.8898570"
+  },
+  "HYG": {
+    "city": "Hartford",
+    "mascot": "Yard Goats",
+    "lat": "41.7712706",
+    "long": "-72.6745227"
+  },
+  "NHA": {
+    "city": "New Hampshire",
+    "mascot": "Fisher Cats",
+    "lat": "42.9812016",
+    "long": "-71.4659126"
+  },
+  "POR": {
+    "city": "Portland",
+    "mascot": "Sea Dogs",
+    "lat": "43.6560910",
+    "long": "-70.2784595"
+  },
+  "REA": {
+    "city": "Reading",
+    "mascot": "Fightin' Phils",
+    "lat": "40.3642123",
+    "long": "-75.9333477"
+  },
+  "RIC": {
+    "city": "Richmond",
+    "mascot": "Flying Squirrels",
+    "lat": "37.5719258",
+    "long": "-77.4642088"
+  },
+  "SOM": {
+    "city": "Somerset",
+    "mascot": "Patriots",
+    "lat": "40.5605561",
+    "long": "-74.5532854"
+  },
+  "BIL": {
+    "city": "Biloxi",
+    "mascot": "Shuckers",
+    "lat": "30.3961787",
+    "long": "-88.8933124"
+  },
+  "BIR": {
+    "city": "Birmingham",
+    "mascot": "Barons",
+    "lat": "33.5075877",
+    "long": "-86.8105794"
+  },
+  "CHT": {
+    "city": "Chattanooga",
+    "mascot": "Lookouts",
+    "lat": "35.0543259",
+    "long": "-85.3137833"
+  },
+  "MIS": {
+    "city": "Mississippi",
+    "mascot": "Braves",
+    "lat": "32.2739861",
+    "long": "-90.1484749"
+  },
+  "MON": {
+    "city": "Montgomery",
+    "mascot": "Biscuits",
+    "lat": "32.3815669",
+    "long": "-86.3104571"
+  },
+  "PEN": {
+    "city": "Pensacola",
+    "mascot": "Blue Wahoos",
+    "lat": "30.4044311",
+    "long": "-87.2191606"
+  },
+  "RCT": {
+    "city": "Rocket City",
+    "mascot": "Trash Pandas",
+    "lat": "34.6839236",
+    "long": "-86.7247402"
+  },
+  "TEN": {
+    "city": "Tennessee",
+    "mascot": "Smokies",
+    "lat": "35.9875843",
+    "long": "-83.6051430"
   }
   }
