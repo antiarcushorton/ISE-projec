@@ -1,4 +1,10 @@
 {
+  "COL": {
+    "city": "Columbus",
+    "mascot": "Clippers",
+    "lat": "39.9687",
+    "long": "-83.0109089"
+  },
   "BUF": {
     "city": "Buffalo",
     "mascot": "Bison",
@@ -10,12 +16,6 @@
     "mascot": "Knights",
     "lat": "35.22826",
     "long": "-80.848789"
-  },
-  "COL": {
-    "city": "Columbus",
-    "mascot": "Clippers",
-    "lat": "39.9687",
-    "long": "-83.0109089"
   },
   "DUR": {
     "city": "Durham",
