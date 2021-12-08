@@ -21,7 +21,7 @@ for state in stadiums_json:
 import math
 from itertools import combinations
 
-# Compute pairwise distance matrix
+#Distance matrix between stadiums
 
 def distance(team1, team2):
     c1 = coordinates[team1]
@@ -31,60 +31,57 @@ def distance(team1, team2):
 
 dist = {(c1, c2): distance(c1, c2) for c1, c2 in combinations(teams, 2)}
 
-import gurobipy as gp
+import gurobipy as gpy
 from gurobipy import GRB
 
-# tested with Python 3.7 & Gurobi 9.0.0
+m = gpy.Model()
 
-m = gp.Model()
-
-# Variables: is city 'i' adjacent to city 'j' on the tour?
+#vars: cities i and j
 vars = m.addVars(dist.keys(), obj=dist, vtype=GRB.BINARY, name='x')
 
-# Symmetric direction: Copy the object
 for i, j in vars.keys():
-    vars[j, i] = vars[i, j]  # edge in opposite direction
+    vars[j, i] = vars[i, j]  #other way
 
-# Constraints: two edges incident to each city
+#two edges ONLY for each ballpark
 cons = m.addConstrs(vars.sum(t, '*') == 2 for t in teams)
 
-def subtourelim(model, where):
+def subtourremover(model, where):
     if where == GRB.Callback.MIPSOL:
-        # make a list of edges selected in the solution
+        #edges in each solution
         vals = model.cbGetSolution(model._vars)
-        selected = gp.tuplelist((i, j) for i, j in model._vars.keys()
+        selected = gpy.tuplelist((i, j) for i, j in model._vars.keys()
                              if vals[i, j] > 0.5)
-        # find the shortest cycle in the selected edge list
+        #find shortest route
         tour = subtour(selected)
         if len(tour) < len(teams):
             # add subtour elimination constr. for every pair of cities in subtour
-            model.cbLazy(gp.quicksum(model._vars[i, j] for i, j in combinations(tour, 2))
+            model.cbLazy(gpy.quicksum(model._vars[i, j] for i, j in combinations(tour, 2))
                          <= len(tour)-1)
 
 # Given a tuplelist of edges, find the shortest subtour
 
 def subtour(edges):
     unvisited = teams[:]
-    cycle = teams[:] # Dummy - guaranteed to be replaced
-    while unvisited:  # true if list is non-empty
-        thiscycle = []
+    cycle = teams[:]
+    while unvisited: 
+        currentcycle = []
         neighbors = unvisited
         while neighbors:
             current = neighbors[0]
-            thiscycle.append(current)
+            currentcycle.append(current)
             unvisited.remove(current)
             neighbors = [j for i, j in edges.select(current, '*')
                          if j in unvisited]
-        if len(thiscycle) <= len(cycle):
-            cycle = thiscycle # New shortest subtour
+        if len(currentcycle) <= len(cycle):
+            cycle = currentcycle # New shortest subtour
     return cycle
 
 m._vars = vars
 m.Params.lazyConstraints = 1
-m.optimize(subtourelim)
+m.optimize(subtourremover)
 
 vals = m.getAttr('x', vars)
-selected = gp.tuplelist((i, j) for i, j in vals.keys() if vals[i, j] > 0.5)
+selected = gpy.tuplelist((i, j) for i, j in vals.keys() if vals[i, j] > 0.5)
 
 tour = subtour(selected)
 assert len(tour) == len(teams)
