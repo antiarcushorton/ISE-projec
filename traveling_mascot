@@ -58,7 +58,7 @@ def subtourremover(model, where):
             model.cbLazy(gpy.quicksum(model._vars[i, j] for i, j in combinations(tour, 2))
                          <= len(tour)-1)
 
-# Given a tuplelist of edges, find the shortest subtour
+#given edges, find the shortest subtour
 
 def subtour(edges):
     unvisited = teams[:]
